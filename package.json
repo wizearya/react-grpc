@@ -20,8 +20,8 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start && npx tsc --skipLibCheck && node ./dist/server.js",
+    "build": "npx tsc --skipLibCheck",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,9 +42,10 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "grpc-tools": "^1.8.1",
+    "grpc_tools_node_protoc_ts": "^2.5.10",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-node-externals": "^1.7.2"
   }

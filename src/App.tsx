@@ -3,8 +3,8 @@ import React, { Component } from 'react';
     import './App.css';
 
 
-    const { PingPongServiceClient } = require('./ping_pong_grpc_web_pb');
-    const { PingRequest, PongResponse } = require('./ping_pong_pb.js');
+    const { PingPongServiceClient } = require('./proto/ping_pong_grpc_web_pb');
+    const { PingRequest, PongResponse } = require('./proto/ping_pong_pb');
 
 
     var client = new PingPongServiceClient('http://localhost:9090', null, null);
