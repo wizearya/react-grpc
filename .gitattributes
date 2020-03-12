@@ -1,2 +1,2 @@
-*.ts linguist-vendored=true
-*.js linguist-vendored=false
+*.ts linguist-detected=true
+*.js linguist-detected=false
