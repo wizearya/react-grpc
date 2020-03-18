@@ -1,5 +1,5 @@
 var grpc = require('grpc');
-var pingPongProto = grpc.load('./src/proto/ping_pong/ping_pong.proto');
+var pingPongProto = grpc.load('ping_pong.proto');
 var server = new grpc.Server();
 
 server.addService(pingPongProto.pingpong.PingPongService.service, {
