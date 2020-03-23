@@ -1,8 +1,8 @@
 ## Run Server
-`node server.js`
+`$node server.js`
 ## Build Docker
-`docker build -t wizearya/react-grpc:latest .`
+`$docker build -t wizearya/react-grpc:latest .`
 ## Run Docker
-`docker run -d -p 9090:9090 wizearya/react-grpc`
+`$docker run -d -p 9090:9090 wizearya/react-grpc`
 ## Start Web
-`npm start`
+`$npm start`
